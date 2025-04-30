@@ -1,0 +1,25 @@
+.custom-button {
+  position: relative;
+  font-size: 1.25rem; /* text-xl */
+  padding: 12px 20px;
+  margin-right: 16px; /* Right margin */
+  overflow: visible; /* Let icon overflow outside */
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  transition: color 0.3s;
+}
+
+.custom-button:hover {
+  color: #fb923c; /* Tailwind's orange-400 */
+}
+
+.calendar-icon {
+  position: absolute;
+  right: -14px; /* Push icon halfway out */
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: white; /* Optional: circle background */
+  border-radius: 50%;
+  padding: 2px;
+}
