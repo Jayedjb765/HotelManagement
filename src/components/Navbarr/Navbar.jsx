@@ -46,12 +46,10 @@ const Navbar = () => {
       </div>
       <div className="navbar-end text-xl">
         <button className="group relative flex items-center bg-black text-white px-6 py-2 rounded-full mr-96 overflow-visible">
-          {/* Orange circle with calendar icon */}
           <span className="absolute -left-4 w-10 h-10 bg-orange-500 rounded-full flex items-center justify-center">
             <CalendarOutlined className="text-white text-lg" />
           </span>
 
-          {/* Text with hover effect */}
           <span className="ml-6 group-hover:text-orange-400 text-lg font-medium">
             Schedule a visit
           </span>
