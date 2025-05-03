@@ -6,9 +6,11 @@ import Footer from "./Footer/Footer";
 const Root = () => {
   return (
     <div>
-      <Navbar></Navbar>
-      <Outlet></Outlet>
-      <Footer></Footer>
+      <div className="ml-3 mr-3">
+        <Navbar></Navbar>
+        <Outlet></Outlet>
+        <Footer></Footer>
+      </div>
     </div>
   );
 };
