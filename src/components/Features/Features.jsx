@@ -1,27 +1,8 @@
 import React from "react";
-import { Collapse } from "antd";
+import "./Feather.css";
+
 import { RiCalendarScheduleLine } from "react-icons/ri";
 const Features = () => {
-  const text = `
-  Get the best villa website template in HTML CSS and Bootstrap for your business. TemplateMo provides you the best free CSS templates in the world. Please tell your friends about it.
-`;
-  const items = [
-    {
-      key: "1",
-      label: "Best useful links ?",
-      children: <p>{text}</p>,
-    },
-    {
-      key: "2",
-      label: "How does this work ?",
-      children: <p>{text}</p>,
-    },
-    {
-      key: "3",
-      label: "Why is Villa Agency the best ?",
-      children: <p>{text}</p>,
-    },
-  ];
   return (
     <div>
       <div className="flex">
@@ -41,11 +22,42 @@ const Features = () => {
             </h1>
           </div>
           <div>
-            <Collapse
-              className="hover:text-orange-400"
-              accordion
-              items={items}
-            />
+            <div
+              tabIndex={0}
+              className="collapse collapse-arrow bg-base-100 border-base-300 border"
+            >
+              <div className="collapse-title font-semibold ">
+                How do I create an account?
+              </div>
+              <div className="collapse-content text-sm">
+                Click the "Sign Up" button in the top right corner and follow
+                the registration process.
+              </div>
+            </div>
+            <div
+              tabIndex={0}
+              className="collapse collapse-arrow bg-base-100 border-base-300 border"
+            >
+              <div className="collapse-title hover:text-orange-400 peer-checked:text-orange-400   ">
+                How do I create an account?
+              </div>
+              <div className="collapse-content text-sm">
+                Click the "Sign Up" button in the top right corner and follow
+                the registration process.
+              </div>
+            </div>
+            <div
+              tabIndex={0}
+              className="collapse collapse-arrow bg-base-100 border-base-300 border"
+            >
+              <div className="collapse-title font-semibold">
+                How do I create an account?
+              </div>
+              <div className="collapse-content text-sm">
+                Click the "Sign Up" button in the top right corner and follow
+                the registration process.
+              </div>
+            </div>
           </div>
         </div>
       </div>
