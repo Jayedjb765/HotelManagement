@@ -41,7 +41,11 @@ const Features = () => {
             </h1>
           </div>
           <div>
-            <Collapse accordion items={items} />
+            <Collapse
+              className="hover:text-orange-400"
+              accordion
+              items={items}
+            />
           </div>
         </div>
       </div>
