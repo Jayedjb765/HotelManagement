@@ -3,24 +3,22 @@ import { Collapse } from "antd";
 import { RiCalendarScheduleLine } from "react-icons/ri";
 const Features = () => {
   const text = `
-  A dog is a type of domesticated animal.
-  Known for its loyalty and faithfulness,
-  it can be found as a welcome guest in many households across the world.
+  Get the best villa website template in HTML CSS and Bootstrap for your business. TemplateMo provides you the best free CSS templates in the world. Please tell your friends about it.
 `;
   const items = [
     {
       key: "1",
-      label: "This is panel header 1",
+      label: "Best useful links ?",
       children: <p>{text}</p>,
     },
     {
       key: "2",
-      label: "This is panel header 2",
+      label: "How does this work ?",
       children: <p>{text}</p>,
     },
     {
       key: "3",
-      label: "This is panel header 3",
+      label: "Why is Villa Agency the best ?",
       children: <p>{text}</p>,
     },
   ];
